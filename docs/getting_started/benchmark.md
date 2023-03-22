@@ -1,11 +1,11 @@
 ---
 prev:
   text: 'About'
-  link: 'content/about.md'
+  link: 'getting_started/about.md'
 
 next:
   text: 'Install'
-  link: 'content/install.md'
+  link: 'getting_started/install.md'
 ---
 
 

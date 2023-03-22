@@ -1,11 +1,11 @@
 ---
 prev:
   text: 'Overview'
-  link: 'content/overview.md'
+  link: 'getting_started/overview.md'
 
 next:
   text: 'Benchmark'
-  link: 'content/benchmark.md'
+  link: 'getting_started/benchmark.md'
 ---
 
 

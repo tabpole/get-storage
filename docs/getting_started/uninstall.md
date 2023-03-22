@@ -1,11 +1,11 @@
 ---
 prev:
   text: 'Install'
-  link: 'content/install.md'
+  link: 'getting_started/install.md'
 
 next:
   text: 'Write'
-  link: 'content/write.md'
+  link: 'functionality/write.md'
 ---
 
 # Uninstall
@@ -15,7 +15,7 @@ next:
 You can uninstall "Get Storage" package from your Flutter or Dart project by removing it from the pubspec.yaml file and then updating the project dependencies. Here's how:
 
 1. Open your project's `pubspec.yaml` file in an editor.
-2. Remove the following line from the dependencies section of your pubspec.yaml file:
+2. Remove the following line from the dependencies section of your pubspec.yaml
 
     ```dart
     get_storage: ^2.1.1

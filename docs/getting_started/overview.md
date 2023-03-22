@@ -3,7 +3,7 @@ prev: false
 
 next:
   text: 'About'
-  link: 'content/about.md'
+  link: 'getting_started/about.md'
 ---
 
 

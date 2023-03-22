@@ -1,11 +1,11 @@
 ---
 prev:
   text: 'Benchmark'
-  link: 'content/benchmark.md'
+  link: 'getting_started/benchmark.md'
 
 next:
   text: 'Uninstall'
-  link: 'content/uninstall.md'
+  link: 'getting_started/uninstall.md'
 ---
 
 # Installation
@@ -44,7 +44,7 @@ That's it! You have now installed "Get Storage" package in your project and can 
 
 ## Flutter command
 
-you can also install "Get Storage" package using the Flutter command line tool. To install the package, follow these steps:
+You can also install "Get Storage" package using the Flutter command line tool. To install the package, follow these steps:
 
 1. Open a terminal window and navigate to the root directory of your Flutter project.
 2. Run the following command:
@@ -70,3 +70,26 @@ you can also install "Get Storage" package using the Flutter command line tool. 
     ```
 
 That's it! You have now installed "Get Storage" package in your project and can start using it to store and retrieve data.
+
+## Initialization
+
+After installing the package you must make sure to initialize `get_storage` to your main method. To initialize "Get Storage" into the main method of your Flutter app, you can follow these steps:
+
+1. Import the GetStorage package into your main.dart file by adding the following import statement at the top of the file:
+
+    ```dart
+    import 'package:get_storage/get_storage.dart';
+    ```
+
+2. In the main method of your app, before calling runApp method, call the init method of the GetStorage class to initialize the storage system:
+
+    ```dart
+    void main() async {
+      await GetStorage.init();
+      runApp(MyApp());
+    }
+    ```
+
+    The init method is an asynchronous method, so you need to use the async and await keywords to wait for the initialization to complete before running the app.
+
+That's it! You have now initialized "Get Storage" into the main method of your Flutter app and can start using it to store and retrieve data.
