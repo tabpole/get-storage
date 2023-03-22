@@ -1,0 +1,21 @@
+
+:root {
+    --vp-font-family-base: 'Verdana';
+    /* --vp-font-family-base: 'Monospace'; */
+    /* --vp-font-family-base: 'Verdana'; */
+    /* --vp-font-family-base: 'Monaco' ; */
+    /* --vp-font-family-base: 'Sans-serif'; */
+    /* --vp-font-family-base: 'Serif' ; */
+    /* --vp-font-family-base: 'Fantasy' ; */
+
+    --vp-c-brand: #8e43b6;
+    --vp-c-brand-light: #712b94;
+
+    --vp-c-green: #660099;
+    --vp-c-green-light: #7f4b98;
+    --vp-c-green-lighter: #8f7e98;
+    --vp-c-green-dark: #500077;
+    --vp-c-green-darker: #1d002c;
+
+}
+  
