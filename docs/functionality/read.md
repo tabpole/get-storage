@@ -1,11 +1,11 @@
 ---
 prev:
-  text: 'Uninstall'
-  link: 'getting_started/uninstall.md'
+  text: 'Write'
+  link: 'functionality/write.md'
 
 next:
-  text: 'Read'
-  link: 'functionality/read.md'
+  text: 'Remove'
+  link: 'functionality/remove.md'
 ---
 
 # Read

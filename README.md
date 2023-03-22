@@ -4,14 +4,14 @@ A simple and short Docker guideline.
 
 ## Website
 
-To visit the website [click here](https://tabpole.github.io/get-cli).
+To visit the website [click here](https://tabpole.github.io/get-storage).
 
 ## How to run on local machine
 
 Step 1: Clone repository
 
 ```bash
-    git clone git@github.com:tabpole/docker-handbook.git
+    git clone git@github.com:tabpole/get-storage.git
 ```
 
 Step 2: npm dependencies

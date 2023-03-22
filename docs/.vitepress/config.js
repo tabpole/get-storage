@@ -1,6 +1,6 @@
 export default {
     title: 'Get Storage',
-    description: 'Get Storage',
+    description: 'Get Storage documentation',
     base : '/get-storage/',
     lastUpdated: true,
     lang: 'en-US',
@@ -17,7 +17,7 @@ export default {
 
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Documentation', link: 'content/overview.md' },
+        { text: 'Documentation', link: 'getting_started/overview.md' },
         { text: 'About', link: 'https://tabpole.github.io' },
         { text: 'Support', link: 'https://www.buymeacoffee.com/alpondith'},
       ],

@@ -1,7 +1,7 @@
 ---
 prev:
   text: 'Read'
-  link: 'getting_started/read.md'
+  link: 'functionality/read.md'
 
 next:
   text: 'Erase'

@@ -18,15 +18,20 @@ A simple and short Get Storage guideline
 
 ## Table of Content
 
-- Overview
-- About
-- Benchmark
-- Install
-- Uninstall
-- Write
-- Read
-- Remove
-- Erase
+### Getting Started
+
+- [Overview](./overview.md)
+- [About](./about.md)
+- [Benchmark](./benchmark.md)
+- [Install](./install.md)
+- [Uninstall](./uninstall.md)
+
+### Functionality
+
+- [Write](../functionality/write.md)
+- [Read](../functionality/read.md)
+- [Remove](../functionality/remove.md)
+- [Erase](../functionality/erase.md)
 
 ## Conclusion
 
@@ -34,5 +39,5 @@ Overall, `get_storage` is a useful and versatile package that can help developer
 
 ## References
 
-- ChatGpt [-->](https://chat.openai.com)
 - Official Repository [-->](https://github.com/jonataslaw/get_storage)
+- ChatGpt [-->](https://chat.openai.com)

@@ -1,7 +1,7 @@
 ---
 prev:
   text: 'Remove'
-  link: 'getting_started/remove.md'
+  link: 'functionality/remove.md'
 
 next:
   text: 'Erase'
