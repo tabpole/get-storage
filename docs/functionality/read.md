@@ -17,16 +17,14 @@ Read data from Get Storage
 The `read` method of the `GetStorage` class in the "Get Storage" package is used to to retrieve the value associated with a specific key in the storage system.
 
 ```dart
-// Synchronously
-dynamic value = GetStorage().read(key);
+dynamic value = GetStorage().read(key); // Synchronously
+```
 
-// OR
+```dart
+dynamic value = await GetStorage().read(key); // Asynchronously
+```
 
-// Asynchronously with the async/await keywords
-dynamic value = await GetStorage().read(key);
-
-// OR
-
+```dart
 // Using the then method of the Future object
 GetStorage().read(key).then((dynamic value) {
     print("Retrieved data : $value");
@@ -52,7 +50,7 @@ When you call the `read` method using a key, the storage system retrieves the va
 Alternatively, you can use the `read` method in one line like this:
 
 ```dart
-GetStorage().read('name');
+String name = GetStorage().read('name');
 ```
 
 ## Complete Example

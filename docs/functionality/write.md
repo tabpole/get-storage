@@ -17,16 +17,14 @@ Write data into Get Storage
 The `write` method of the `GetStorage` class in the "Get Storage" package is used to write a value to a key in the storage system. The method takes two parameters:  `key` and `value` . It does not have a return value. Instead, it saves the data to the storage and returns `void` .
 
 ```dart
-// Synchronously
-GetStorage().write(key, value);
+GetStorage().write(key, value); // Synchronously
+```
 
-// OR
+```dart
+await GetStorage().write(key, value); // Asynchronously
+```
 
-// Asynchronously with the async/await keywords
-await GetStorage().write(key, value);
-
-// OR
-
+```dart
 // Using the then method of the Future object
 GetStorage().write(key, value).then((_) {
     print('Data has been saved successfully');
