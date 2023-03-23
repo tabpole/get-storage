@@ -15,6 +15,7 @@ export default {
         text: 'Edit this page on GitHub'
       },
 
+      // Navigation Section
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Documentation', link: 'getting_started/overview.md' },
@@ -25,52 +26,29 @@ export default {
         { icon: 'github', link: 'https://github.com/jonataslaw/get_storage' },
       ],
 
+      // Sidebar Section
       sidebar: [
+
         {
           text: 'Getting Started',
+          collapsed: false,
           items: [
-            {
-              text: 'Overview',
-              link: 'getting_started/overview.md'
-            },
-            {
-              text: 'About',
-              link: 'getting_started/about.md'
-            },
-            {
-              text: 'Benchmark',
-              link: 'getting_started/benchmark.md'
-            },
-            {
-              text: 'Install',
-              link: 'getting_started/install.md'
-            },
-            {
-              text: 'Uninstall',
-              link: 'getting_started/uninstall.md'
-            },
+            { text: 'Overview',link: 'getting_started/overview.md' },
+            { text: 'About',link: 'getting_started/about.md' },
+            { text: 'Benchmark',link: 'getting_started/benchmark.md' },
+            { text: 'Install',link: 'getting_started/install.md' },
+            { text: 'Uninstall',link: 'getting_started/uninstall.md' },
           ],
         },
 
         {
           text: 'Functionality',
+          collapsed: false,
           items: [
-            {
-              text: 'Write',
-              link: 'functionality/write.md'
-            },
-            {
-              text: 'Read',
-              link: 'functionality/read.md'
-            },
-            {
-              text: 'Remove',
-              link: 'functionality/remove.md'
-            },
-            {
-              text: 'Erase',
-              link: 'functionality/erase.md'
-            },
+            { text: 'Write',link: 'functionality/write.md' },
+            { text: 'Read',link: 'functionality/read.md' },
+            { text: 'Remove',link: 'functionality/remove.md' },
+            { text: 'Erase',link: 'functionality/erase.md' },
           ],
         },
         
