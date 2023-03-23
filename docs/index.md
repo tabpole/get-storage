@@ -46,3 +46,9 @@ features:
     title: Tools
 
 ---
+
+<!-- <script setup>
+import Sponsors from '@theme/components/Sponsors.vue'
+</script>
+
+<Sponsors /> -->

@@ -1,10 +1,20 @@
 export default {
     title: 'Get Storage',
-    description: 'Get Storage documentation',
+    description: 'Get Storage Documentation',
     base : '/get-storage/',
     lastUpdated: true,
     lang: 'en-US',
     cleanUrls: true,
+
+    markdown: {
+      theme: 'material-theme-palenight',
+      lineNumbers: true,
+      anchors: {
+        slugify(str) {
+          return encodeURIComponent(str)
+        }
+      }
+    },
 
     themeConfig: {
       siteTitle: 'Get Storage',
@@ -53,9 +63,11 @@ export default {
         },
         
       ],
+
+      // Footer Section
       footer: {
         message: 'Released under the MIT License.',
         copyright: 'Copyright © 2023 tabpole.github.io'
-      }
+      },
     },
   }
