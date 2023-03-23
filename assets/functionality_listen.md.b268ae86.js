@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app.0c5d518c.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"functionality/listen.md","lastUpdated":1679465219000}'),n={name:"functionality/listen.md"};function s(o,r,c,i,l,p){return a(),e("div")}const f=t(n,[["render",s]]);export{_ as __pageData,f as default};
