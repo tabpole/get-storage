@@ -1,0 +1,41 @@
+<script setup>
+import { useData } from "vitepress";
+import sponsorsJson from "/public/advertisement/sponsor.json";
+
+const { frontmatter } = useData();
+
+const sponsors = sponsorsJson.platinum;
+
+</script>
+
+<template>
+    <div v-if="frontmatter.sponsors !== false">
+        <a v-for="sponsor in sponsors" :key="sponsor.name" :href="sponsor.link" target="_blank">
+            <img class="img" :src="sponsor.image" :alt="sponsor.name" />
+        </a>
+
+        <a class="b-sponsor" href="https://www.buymeacoffee.com/alpondith/membership" target="_blank">
+            <p>Become Sponsor</p>
+        </a>
+    </div>
+</template>
+
+<style>
+.img {
+    margin-top: 4px;
+    margin-bottom: px;
+}
+
+.b-sponsor {
+    color: #000000;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.b-sponsor:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+</style>

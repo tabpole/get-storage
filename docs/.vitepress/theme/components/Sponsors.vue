@@ -1,53 +1,22 @@
 <script setup>
-const sponsors = [
-    {
-        name: "Sponsor 1",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-    {
-        name: "Sponsor 2",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-    {
-        name: "Sponsor 2",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-    {
-        name: "Sponsor 2",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-    {
-        name: "Sponsor 2",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-    {
-        name: "Sponsor 2",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-    {
-        name: "Sponsor 2",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-    {
-        name: "Sponsor 2",
-        image: "/badge.png",
-        link: "https://tabpole.github.io",
-    },
-];
+
+import sponsorsJson from "/public/advertisement/sponsor.json";
+
+const platinumSponsors = sponsorsJson.platinum;
+const goldSponsors = sponsorsJson.average;
+
 </script>
 
 <template>
-    <h1 class="title">Sponsors</h1>
-
+    <h1 class="title">Platinum Sponsors</h1>
     <div class="sponsors">
-        <a class="sponsor" v-for="sponsor in sponsors" :key="sponsor.name" :href="sponsor.link" target="_blank">
+        <a class="sponsor" v-for="sponsor in platinumSponsors" :key="sponsor.name" :href="sponsor.link" target="_blank">
+            <img :src="sponsor.image" :alt="sponsor.name" />
+        </a>
+    </div>
+    <h1 class="title">Gold Sponsors</h1>
+    <div class="sponsors">
+        <a class="sponsor" v-for="sponsor in goldSponsors" :key="sponsor.name" :href="sponsor.link" target="_blank">
             <img :src="sponsor.image" :alt="sponsor.name" />
         </a>
     </div>
@@ -77,20 +46,20 @@ const sponsors = [
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 100px;
     border-radius: 10px;
 }
 
 .sponsor img {
     max-width: 100%;
     height: auto;
-    margin: 10px;
+    padding: 20px;
 }
 
 @media (min-width: 400px) {
     .sponsor {
         width: calc(50% - 20px);
-        height: 150px;
+        height: 100px;
         margin: 10px;
     }
 }
@@ -98,14 +67,14 @@ const sponsors = [
 @media (min-width: 768px) {
     .sponsor {
         width: calc(33.33% - 20px);
-        height: 200px;
+        height: 100px;
     }
 }
 
 @media (min-width: 992px) {
     .sponsor {
         width: calc(25% - 20px);
-        height: 250px;
+        height: 120px;
     }
     .sponsors {
         max-width: 1160px;

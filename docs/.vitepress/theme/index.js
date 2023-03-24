@@ -2,4 +2,9 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 
-export default DefaultTheme
+import AdsLayout from '@theme/layouts/AdsLayout.vue'
+
+export default {
+    ...DefaultTheme,
+    Layout: AdsLayout
+}
