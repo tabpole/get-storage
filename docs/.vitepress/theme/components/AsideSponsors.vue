@@ -1,6 +1,6 @@
 <script setup>
 import { useData } from "vitepress";
-import sponsorsJson from "/public/advertisement/sponsor.json";
+import sponsorsJson from "@theme/data/sponsor.json";
 
 const { frontmatter } = useData();
 

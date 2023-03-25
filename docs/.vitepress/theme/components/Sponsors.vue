@@ -1,6 +1,6 @@
 <script setup>
 
-import sponsorsJson from "/public/advertisement/sponsor.json";
+import sponsorsJson from "@theme/data/sponsor.json";
 
 const platinumSponsors = sponsorsJson.platinum;
 const goldSponsors = sponsorsJson.average;
