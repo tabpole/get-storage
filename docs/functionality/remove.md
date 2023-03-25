@@ -17,16 +17,14 @@ Remove data from Get Storage
 The `remove` method in the `get_storage` package is used to remove data from the storage. Like the `write` method, it does not return anything and its output is `void`.
 
 ```dart
-// Synchronously
-GetStorage().remove(key);
+GetStorage().remove(key); // Synchronously
+```
 
-// OR
+```dart
+await GetStorage().remove(key); // Asynchronously
+```
 
-// Asynchronously with the async/await keywords
-await GetStorage().remove(key);
-
-// OR
-
+```dart
 // Using the then method of the Future object
 GetStorage().remove(key).then((_) {
     print('Data has been removed successfully');
@@ -39,7 +37,7 @@ Similar to the `write` method, the `then` method in the last example does not re
 
 ## Example
 
-Here's an example of how to use the `write` method:
+Here's an example of how to use the `remove` method.
 
 ```dart
 // Create an instance of GetStorage

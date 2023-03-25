@@ -32,6 +32,8 @@ A simple and short Get Storage guideline
 - [Read](../functionality/read.md)
 - [Remove](../functionality/remove.md)
 - [Erase](../functionality/erase.md)
+- [Container](../functionality/container.md)
+- [Event Listener](../functionality/event_listener.md)
 
 ## Conclusion
 
