@@ -5,7 +5,7 @@ prev:
 
 next:
   text: 'Erase'
-  link: 'functionality/erase.md'
+  link: 'functionality/container.md'
 ---
 
 # Erase

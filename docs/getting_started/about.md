@@ -26,7 +26,7 @@ Persistent key/value storage for Android, iOS, Web, Linux, Mac and Fuchsia and W
 
 ## What Get Storage is NOT
 
-A database. Get is super compact to offer you a solution ultra-light, high-speed read/write storage to work synchronously. If you want to store data persistently on disk with immediate memory access, use it, if you want a database, with indexing and specific disk storage tools, there are incredible solutions that are already available, like Hive and Sqflite/Moor.
+Get Storage is not a database. Get is super compact to offer you a solution ultra-light, high-speed read/write storage to work synchronously. If you want to store data persistently on disk with immediate memory access, use it, if you want a database, with indexing and specific disk storage tools, there are incredible solutions that are already available, like Hive and Sqflite/Moor.
 
 As soon as you declare "write" the file is immediately written in memory and can now be accessed immediately with `box.read()`. You can also wait for the callback that it was written to disk using `await box.write()`.
 
@@ -40,8 +40,8 @@ As soon as you declare "write" the file is immediately written in memory and can
 
 ## When not to use Get Storage
 
-- you need indexes.
-- when you need to always check if the file was written to the storage disk before starting another operation (storage in memory is done instantly and can be read instantly with box.read(), and the backup to disk is done in the background. To make sure the backup is complete, you can use await, but if you need to call await all the time, it makes no sense you are using memory storage).
+- you need indexing or query capabilities..
+- Not suitable for large or complex data.
 
 ## More
 

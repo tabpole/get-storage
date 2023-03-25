@@ -20,6 +20,12 @@ export default {
       siteTitle: 'Get Storage',
       logo : '/logo.png',
 
+      algolia: {
+        appId: '2KZAN3QQD4',
+        apiKey: '90651c09ce819c1ac41b9da48e228586',
+        indexName: 'get-storage'
+      },
+
       editLink: {
         pattern: 'https://github.com/tabpole/get-storage/tree/main/docs/:path',
         text: 'Edit this page on GitHub'
@@ -59,6 +65,7 @@ export default {
             { text: 'Read',link: 'functionality/read.md' },
             { text: 'Remove',link: 'functionality/remove.md' },
             { text: 'Erase',link: 'functionality/erase.md' },
+            { text: 'Container',link: 'functionality/container.md' },
           ],
         },
         
