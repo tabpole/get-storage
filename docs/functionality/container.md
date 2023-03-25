@@ -3,7 +3,9 @@ prev:
   text: 'Erase'
   link: 'functionality/erase.md'
 
-next: false
+next:
+  text: 'Event Listener'
+  link: 'functionality/event_listener.md'
 
 ---
 

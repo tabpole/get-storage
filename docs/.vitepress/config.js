@@ -66,6 +66,7 @@ export default {
             { text: 'Remove',link: 'functionality/remove.md' },
             { text: 'Erase',link: 'functionality/erase.md' },
             { text: 'Container',link: 'functionality/container.md' },
+            { text: 'Event Listener',link: 'functionality/event_listener.md' },
           ],
         },
         
