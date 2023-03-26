@@ -16,6 +16,12 @@ export default {
       }
     },
 
+    head: [
+      [ 'script', { async: '' , src: "https://www.googletagmanager.com/gtag/js?id=G-EKY7NL3WQV" } ],
+      // Output : <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKY7NL3WQV"></script>
+      [ 'script', {} , "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-EKY7NL3WQV');" ],
+    ],
+
     themeConfig: {
       siteTitle: 'Get Storage',
       logo : '/logo.png',
