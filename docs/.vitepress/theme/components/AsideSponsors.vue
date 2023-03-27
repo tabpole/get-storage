@@ -27,7 +27,6 @@ const sponsors = sponsorsJson.platinum;
 }
 
 .b-sponsor {
-    color: #000000;
     font-size: 16px;
     padding: 10px;
     font-weight: normal;
