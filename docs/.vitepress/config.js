@@ -46,6 +46,7 @@ export default {
       ],
       socialLinks: [
         { icon: 'github', link: 'https://github.com/jonataslaw/get_storage' },
+        { icon: 'twitter', link: 'https://twitter.com/alpondith' },
       ],
 
       // Sidebar Section
