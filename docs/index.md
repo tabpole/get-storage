@@ -1,6 +1,14 @@
 ---
 layout: home
 
+head:
+  - - meta
+    - name: description
+      content: Home page of get storage package
+  - - meta
+    - name: keywords
+      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , dart, getx
+
 hero:
   name: Get Storage
   text: A Simple Get Storage Journey

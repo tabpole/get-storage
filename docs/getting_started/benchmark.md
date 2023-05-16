@@ -1,4 +1,13 @@
 ---
+
+head:
+  - - meta
+    - name: description
+      content: Benchmark of get storage package
+  - - meta
+    - name: keywords
+      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, benchmark get storage, flutter state management, flutter local storage , flutter , dart, getx
+
 prev:
   text: 'About'
   link: 'getting_started/about.md'

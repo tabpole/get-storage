@@ -1,4 +1,12 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: Read feature of get storage package
+  - - meta
+    - name: keywords
+      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , read , getx
+
 prev:
   text: 'Write'
   link: 'functionality/write.md'

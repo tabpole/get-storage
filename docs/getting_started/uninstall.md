@@ -1,4 +1,13 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: Uninstall get storage package
+  - - meta
+    - name: keywords
+      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , getx, uninstall
+
+
 prev:
   text: 'Install'
   link: 'getting_started/install.md'
