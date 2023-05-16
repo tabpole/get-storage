@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: It is a package for the Dart programming language, which provides an easy-to-use and lightweight solution for storing key-value pairs persistently on disk.
+
 prev: false
 
 next:

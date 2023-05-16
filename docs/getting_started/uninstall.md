@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: Firstly, Open your project's `pubspec.yaml` file in an editor and remove the following line from the dependencies section.
+
 prev:
   text: 'Install'
   link: 'getting_started/install.md'

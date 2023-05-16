@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: Get Storage is a package for the Dart programming language, which provides an easy-to-use and lightweight solution for storing key-value pairs persistently on disk. It is designed to be efficient and fast, even for large amounts of data.
+
 prev:
   text: 'Overview'
   link: 'getting_started/overview.md'

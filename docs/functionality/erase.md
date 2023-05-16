@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: The erase method in the get_storage package is used to remove all the data from the storage. Like the write and remove methods, it does not return anything and its output is void.
+
 prev:
   text: 'Remove'
   link: 'functionality/remove.md'

@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: The remove method in the get_storage package is used to remove data from the storage. Like the write method, it does not return anything and its output is void.
+
 prev:
   text: 'Read'
   link: 'functionality/read.md'

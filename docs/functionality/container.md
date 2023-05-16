@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: A container is essentially a namespace for your storage keys. When you create a container, you can store data using the same keys as you would with a regular storage object, but the keys will only be accessible within that container.
+
 prev:
   text: 'Erase'
   link: 'functionality/erase.md'

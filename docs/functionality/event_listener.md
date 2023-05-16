@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: One of the key features of the get_storage package is the ability to register event listeners for changes to the stored data. This means that you can get notified when data is added, updated, or removed from the storage.
+
 prev:
   text: 'Container'
   link: 'functionality/container.md'
@@ -98,8 +103,6 @@ Message changed: Goodbye World
 Storage Updated: Thanks Flutter
 Message changed: Thanks Flutter
 ```
-
-Following 'write()' statements will do the same things.
 
 Finally, the code disposes of the event listener by calling the call() method on the function returned by box.listen(). This removes the listener and prevents any memory leaks. It's important to dispose of event listeners when they are no longer needed, as they can consume memory and slow down the application if left active.
 

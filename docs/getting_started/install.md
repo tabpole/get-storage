@@ -1,4 +1,10 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: Open your project in an editor, such as Visual Studio Code or Android Studio. Next, Open your project's pubspec.yaml file and add the following line to the dependencies section of your pubspec.yaml file.
+
+
 prev:
   text: 'Benchmark'
   link: 'getting_started/benchmark.md'

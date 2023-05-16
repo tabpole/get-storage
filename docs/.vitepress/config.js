@@ -16,6 +16,12 @@ export default {
       }
     },
 
+    head: [
+      [ 'script', { async: '' , src: "https://www.googletagmanager.com/gtag/js?id=G-J0YHFJQ65R" } ],
+      // Output : <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKY7NL3WQV"></script>
+      [ 'script', {} , "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-J0YHFJQ65R');" ],
+    ],
+
     themeConfig: {
       siteTitle: 'Get Storage',
       logo : '/logo.png',
@@ -40,6 +46,7 @@ export default {
       ],
       socialLinks: [
         { icon: 'github', link: 'https://github.com/jonataslaw/get_storage' },
+        { icon: 'twitter', link: 'https://twitter.com/alpondith' },
       ],
 
       // Sidebar Section

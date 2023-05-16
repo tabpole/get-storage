@@ -1,4 +1,10 @@
 ---
+
+head:
+  - - meta
+    - name: description
+      content: Benchmark of get storage package. GetStorage is not just fast, it is absurdly fast for being memory-based. more...
+
 prev:
   text: 'About'
   link: 'getting_started/about.md'

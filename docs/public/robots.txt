@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://tabpole.github.io/get-storage/sitemap.xml

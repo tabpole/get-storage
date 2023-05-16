@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: The write method of the GetStorage class in the Get Storage package is used to write a value to a key in the storage system. The method takes two parameters key and value.
+
 prev:
   text: 'Uninstall'
   link: 'getting_started/uninstall.md'

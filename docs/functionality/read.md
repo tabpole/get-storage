@@ -1,4 +1,9 @@
 ---
+head:
+  - - meta
+    - name: description
+      content: The read method of the GetStorage class in the Get Storage package is used to to retrieve the value associated with a specific key in the storage system.
+
 prev:
   text: 'Write'
   link: 'functionality/write.md'
