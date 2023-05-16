@@ -2,10 +2,7 @@
 head:
   - - meta
     - name: description
-      content: Read feature of get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , read , getx
+      content: The read method of the GetStorage class in the Get Storage package is used to to retrieve the value associated with a specific key in the storage system.
 
 prev:
   text: 'Write'

@@ -3,10 +3,7 @@
 head:
   - - meta
     - name: description
-      content: Benchmark of get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, benchmark get storage, flutter state management, flutter local storage , flutter , dart, getx
+      content: Benchmark of get storage package. GetStorage is not just fast, it is absurdly fast for being memory-based. more...
 
 prev:
   text: 'About'

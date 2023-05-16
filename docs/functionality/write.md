@@ -2,11 +2,7 @@
 head:
   - - meta
     - name: description
-      content: remove feature of get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , remove , getx
-
+      content: The write method of the GetStorage class in the Get Storage package is used to write a value to a key in the storage system. The method takes two parameters key and value.
 
 prev:
   text: 'Uninstall'

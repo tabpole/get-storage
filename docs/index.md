@@ -4,10 +4,7 @@ layout: home
 head:
   - - meta
     - name: description
-      content: Home page of get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , dart, getx
+      content: Get Storage is a package for the Dart programming language, which provides an easy-to-use and lightweight solution for storing key-value pairs persistently on disk. It is designed to be efficient and fast, even for large amounts of data.
 
 hero:
   name: Get Storage

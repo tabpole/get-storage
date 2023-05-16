@@ -2,11 +2,7 @@
 head:
   - - meta
     - name: description
-      content: Uninstall get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , getx, uninstall
-
+      content: Firstly, Open your project's `pubspec.yaml` file in an editor and remove the following line from the dependencies section.
 
 prev:
   text: 'Install'

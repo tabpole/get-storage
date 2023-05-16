@@ -2,10 +2,7 @@
 head:
   - - meta
     - name: description
-      content: Container feature of get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , container , getx
+      content: A container is essentially a namespace for your storage keys. When you create a container, you can store data using the same keys as you would with a regular storage object, but the keys will only be accessible within that container.
 
 prev:
   text: 'Erase'

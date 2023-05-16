@@ -2,10 +2,7 @@
 head:
   - - meta
     - name: description
-      content: Erase feature of get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , erase , getx
+      content: The erase method in the get_storage package is used to remove all the data from the storage. Like the write and remove methods, it does not return anything and its output is void.
 
 prev:
   text: 'Remove'

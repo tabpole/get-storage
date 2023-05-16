@@ -2,10 +2,8 @@
 head:
   - - meta
     - name: description
-      content: Install get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , getx , install
+      content: Open your project in an editor, such as Visual Studio Code or Android Studio. Next, Open your project's pubspec.yaml file and add the following line to the dependencies section of your pubspec.yaml file.
+
 
 prev:
   text: 'Benchmark'

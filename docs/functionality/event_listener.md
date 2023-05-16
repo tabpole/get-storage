@@ -2,10 +2,7 @@
 head:
   - - meta
     - name: description
-      content: Event feature of get storage package
-  - - meta
-    - name: keywords
-      content: flutter storage, persistent storage, key value storage, local data storage, shared preferences, flutter data caching, flutter state management, flutter local storage , flutter , event lintener , getx
+      content: One of the key features of the get_storage package is the ability to register event listeners for changes to the stored data. This means that you can get notified when data is added, updated, or removed from the storage.
 
 prev:
   text: 'Container'
